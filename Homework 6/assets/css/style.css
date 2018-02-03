@@ -1,0 +1,206 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/* STYLE FROM MATERIALIZE - MANIPULATE*/
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.button-collapse {
+    color: rgb(179, 32, 32);
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+
+/* CSS */
+
+.container {
+    background-color:
+}
+
+#index-banner.parallax-container {}
+
+#footer-copyright {
+    text-align: center;
+}
+
+
+/* <!--STYLEs from maps.html-->
+<style> */
+
+
+/* Always set the map height explicitly to define the size of the div
+    * element that contains the map. */
+
+#map {
+    max-width: 100%;
+    height: 60%;
+}
+
+
+/* Optional: Makes the sample page fill the window. */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#description {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#searchInput {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#searchInput:focus {
+    border-color: rgb(179, 32, 32);
+}
+
+#title {
+    color: #fff;
+    background-color: rgb(179, 32, 32);
+    font-size: 25px;
+    font-weight: 500;
+    padding: 6px 12px;
+}
+
+#target {
+    width: 345px;
+}
+
+div.row {
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+div.section {
+    padding: 0;
+}
+
+div.footer-copyright {
+    margin-left: 75%;
+}
+
+
+/* </style> */
+
+
+/* <!--END maps.html STYLEs--> */
+
+.searchBox,
+#recSearch,
+#searchCard {
+    height: 100px;
+}
+
+#map {
+    height: 600px;
+}
+
+
+/* #recSearch {
+  max-width: 300px;
+} */
